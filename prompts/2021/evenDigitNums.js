@@ -7,8 +7,6 @@
  */
 const findNumbers = function (nums) {
   let evenDigitCount = 0
-
   nums.forEach(num => { if (String(num).length % 2 === 0) { evenDigitCount++ } })
-
   return evenDigitCount
 }
