@@ -19,11 +19,11 @@ const reverse = (num) => {
     // Constraints: -2^31 <= x <= 2^31 - 1
     return 0
   } else if (isNegative) {
-    return Number(`-${result}`)
+    return result * -1
   } else {
-    return Number(result)
+    return result
   }
 }
 
-// Runtime: 104 ms, faster than 41.05% of JavaScript online submissions for Reverse Integer.
-// Memory Usage: 40.2 MB, less than 64.99% of JavaScript online submissions for Reverse Integer.
+// Runtime: 100 ms, faster than 59.43% of JavaScript online submissions for Reverse Integer.
+// Memory Usage: 40.3 MB, less than 49.90% of JavaScript online submissions for Reverse Integer.
