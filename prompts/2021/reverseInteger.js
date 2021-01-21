@@ -15,7 +15,7 @@ const reverse = (num) => {
 
   result = Number(result.reverse().join(''))
 
-  if (result >= 2147483647 || result <= (2147483648 * -1)) {
+  if (result >= 2147483647) {
     // Constraints: -2^31 <= x <= 2^31 - 1
     return 0
   } else if (isNegative) {
@@ -25,5 +25,5 @@ const reverse = (num) => {
   }
 }
 
-// Runtime: 100 ms, faster than 59.43% of JavaScript online submissions for Reverse Integer.
-// Memory Usage: 40.3 MB, less than 49.90% of JavaScript online submissions for Reverse Integer.
+// Runtime: 88 ms, faster than 95.28% of JavaScript online submissions for Reverse Integer.
+// Memory Usage: 40.1 MB, less than 64.99% of JavaScript online submissions for Reverse Integer.
