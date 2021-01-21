@@ -26,4 +26,4 @@ const reverse = (num) => {
 }
 
 // Runtime: 88 ms, faster than 95.28% of JavaScript online submissions for Reverse Integer.
-// Memory Usage: 40.1 MB, less than 64.99% of JavaScript online submissions for Reverse Integer.
+// Memory Usage: 40.1 MB, less than 64.99% of JavaScript online submissions for Reverse Integer
