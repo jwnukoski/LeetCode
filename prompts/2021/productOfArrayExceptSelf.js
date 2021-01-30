@@ -4,6 +4,7 @@
  * @param {number[]} nums
  * @return {number[]}
  */
+// eslint-disable-next-line no-unused-vars
 const productExceptSelf = (nums) => {
   const products = []
 
