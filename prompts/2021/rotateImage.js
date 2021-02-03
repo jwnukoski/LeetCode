@@ -36,3 +36,5 @@ const reflect = (matrix) => {
 // [[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]
 
 
+// Runtime: 72 ms, faster than 93.68% of JavaScript online submissions for Rotate Image.
+// Memory Usage: 38.2 MB, less than 96.53% of JavaScript online submissions for Rotate Image.
