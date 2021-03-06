@@ -1,7 +1,7 @@
 function tournamentWinner(competitions, results) {
-	let winner = { name: '', score: 0 }
-	
+	const winner = { name: '', score: 0 }
 	const scores = new Map()
+    
 	for (const competitor of competitions) {
 		scores.set(competitor[0], 0)
 		scores.set(competitor[1], 0)
