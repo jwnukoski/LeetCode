@@ -17,7 +17,7 @@ class Node {
           const traverse = (node) => {
               array.push(node.name)
   
-              if (this.children.length === 0) {
+              if (node.children.length === 0) {
                   return
               } else {
                   for (const child of node.children) {
